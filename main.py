@@ -78,5 +78,5 @@ st.dataframe(
 
 st.text("Cheers,")
 st.text("Kaelyn")
-st.markdown('Just for fun :D For feedback / more places to suggest, you can tele me @kaelynkoh')
+st.markdown('Just for fun :D For feedback / more places to suggest, you can tele me @kohkaelyn')
 
