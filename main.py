@@ -6,7 +6,7 @@ df = pd.read_csv('/Users/kohyuxuan/Desktop/food_bot/web/combined.csv')
 df = df[df['displayName.text'] != 'THE THAI SPA (BEST SPA IN SINGAPORE)']
 df_2 = pd.read_csv('/Users/kohyuxuan/Desktop/food_bot/web/combined.csv')
 df_2 = df[df['displayName.text'] != 'THE THAI SPA (BEST SPA IN SINGAPORE)']
-
+st.set_page_config(page_title= 'Food🍴', layout="wide" )
 st.title("Because deciding where to eat for lunch is tough 😩")
 st.markdown(":orange[New] to Bugis? Want to :green[explore] food gems? Gathering :red[top] food places in Bugis on Google for **next team lunches or dinner dates**!")
 
