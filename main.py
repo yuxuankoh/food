@@ -81,9 +81,18 @@ st.dataframe(
     height=500,
 )
 
+#
+st.subheader("Specially curated for:", divider="gray")
+column_1, column_2, column_3 = st.columns(3)
+if column_1.button('Anjum',  type="secondary"):
+    st.write("Learning preferences in progress")
+if column_2.button('Eugene', type="secondary"):
+    st.write("Learning preferences in process")
+
+    
 # Footer
+st.markdown('Just for fun :D For feedback / more places to suggest, you can tele me @kohkaelyn')
 st.text("Cheers,")
 st.text("Kaelyn")
-st.markdown('Just for fun :D For feedback / more places to suggest, you can tele me @kohkaelyn')
 
 
