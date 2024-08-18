@@ -83,12 +83,9 @@ st.dataframe(
 
 #
 st.subheader("Specially curated for:", divider="gray")
-column_1, column_2, column_3 = st.columns(3)
-if column_1.button('Anjum',  type="secondary"):
-    st.write("Learning preferences in progress")
-if column_2.button('Eugene', type="secondary"):
-    st.write("Learning preferences in process")
-
+column_1, column_2 = st.columns(2)
+if column_1.button('Anjum') and column_2.button('Eugene'):
+    st.markdown(":orange[Learning preferences in progress]")
     
 # Footer
 st.markdown('Just for fun :D For feedback / more places to suggest, you can tele me @kohkaelyn')
