@@ -81,9 +81,9 @@ st.dataframe(
     height=500,
 )
 
-#
-st.subheader("Specially curated for:", divider="gray")
-column_1, column_2 = st.columns(2)
+# Work in progress
+st.subheader("Learning preferences in progresss...", divider="gray")
+column_1, column_2, column_3, column_4, column_5 = st.columns(5)
 if column_1.button('Anjum'):
     st.markdown(":orange[Learning preferences in progress]")
 if column_2.button('Eugene'):
